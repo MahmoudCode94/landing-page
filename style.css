@@ -1,0 +1,332 @@
+body{
+    margin: 0%;
+}
+
+@font-face {
+    font-family:BaiJamjuree ;
+    src: url(fonts/BaiJamjuree-Regular.ttf);
+}
+
+.font18{
+    font-size: 18px;
+}
+
+.font17{
+    font-size: 17px;
+}
+
+.font16{
+    font-size: 16px;
+}
+
+.font15{
+    font-size: 15px;
+}
+
+*{
+font-family: BaiJamjuree;
+}
+hr{
+    visibility: hidden;
+}
+
+.hr100{
+    height: 100px;
+}
+
+.hr50{
+    height: 50px;
+}
+
+p{
+    color: hsl(201, 11%, 66%) ;
+}
+
+h1,h2,h3,h4{
+    color: hsl(210, 10%, 33%);
+}
+
+.marg20cen{
+    margin: 0% 22%;
+    text-align: center;
+}
+
+.back-logo{
+    background-image:linear-gradient(to bottom, rgba(255, 255, 255, 0) 85%, rgba(255, 255, 255, 1) 100%), url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.back-logo img{
+    margin-top: 5%;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: 0% 10%;
+}
+.btns-top{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+}
+
+.btns-bot{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+}
+
+.btns-top button,.btns-bot button{
+    width: 247px;
+    height: 55px;
+    border-radius: 50px;
+    border-top: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    text-shadow: 0 0 1px #fff;
+}
+
+.btns-top button,.btns-bot .btn-1{
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 0px 5px 9px 0px hsl(171deg 66% 44% / 61%);
+    border-right-width: 3px;
+    border-bottom-width: 4px;
+    border-left-width: 3px;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-color: rgb(0, 164, 139);
+    border-bottom-color: rgb(0, 164, 139);
+    border-left-color: rgb(0, 164, 139);
+    transition: all .1s linear;
+}
+
+.btn-1:active{
+    background-color: hsl(171, 64%, 40%);
+    box-shadow: 0px 5px 9px 0px hsla(171, 66%, 29%, 0.61);
+    border-right-color: rgb(0, 146, 124);
+    border-bottom-color: rgb(0, 146, 124);
+    border-left-color: rgb(0, 146, 124);
+    transform: scale(98%);
+}
+
+.btns-top .btn-2,.btns-bot .btn-2{
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0px 5px 9px 0px hsl(233, 100%, 86%);
+    border-right-width: 3px;
+    border-bottom-width: 4px;
+    border-left-width: 3px;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-color: hsl(233deg 33.49% 52.64%);
+    border-bottom-color: hsl(233deg 33.49% 52.64%);
+    border-left-color: hsl(233deg 33.49% 52.64%);
+    transition: all .1s linear;
+}
+
+.btn-2:active{
+    background-color: hsl(233, 54%, 55%);
+    border-right-color: hsl(233, 30%, 40%);
+    border-bottom-color: hsl(233, 30%, 40%);
+    border-left-color: hsl(233, 30%, 40%);
+    transform: scale(98%);
+}
+
+.sec-2{
+    display: flex;
+    flex-direction: column;
+}
+
+.sec-2-2{
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec-2 img{
+    position: relative;
+    right: 18%;
+}
+
+.sec-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.sec-4{
+    display: flex;
+    justify-content:space-around ;
+    text-align: center;
+    margin: 0% 5%;
+}
+
+.sec-4 div{
+    width: 20%;
+}
+
+.sec-5{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.sec-5 img{
+    height: 100%;
+}
+
+.sec-6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+footer{
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5% 0%;
+}
+
+footer .logo{
+    width: 4%;
+}
+
+footer .links-1{
+    display: grid;
+    grid-template-columns: 100px 150px 162px;
+    grid-template-rows: repeat(2, auto);
+    column-gap: 15%;
+    row-gap: 28%;
+}
+
+footer .links-1 a{
+    color: hsl(210, 10%, 33%);
+    text-decoration: none;
+}
+
+footer .links-1 a:hover{
+    color: hsl(0, 0%, 0%);
+}
+
+footer .links-2{
+    display: flex;
+    gap: 20px;
+}
+
+@media (min-width:320px) and (max-width:480px) {
+    .marg20cen{
+        margin: 0%;
+    }
+    .back-logo{
+        background-image:linear-gradient(to bottom, rgba(255, 255, 255, 0) 85%, rgba(255, 255, 255, 1) 100%), url(images/bg-header-mobile.png);
+    }
+    .back-logo img{
+        margin-top: 25%;
+    }
+    .main{
+        margin: 0% 8%;
+    }
+    .btns-top{
+        flex-direction: column;
+        align-items: center;
+    }
+    .btns-top button,.btns-bot button{
+        width: 85%;
+    }
+    .sec-1{
+        margin: 0%;
+    }
+    .sec-2{
+        align-items: center;
+    }
+    .sec-2-2{
+        display: flex;
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .sec-2 img{
+        width: 100%;
+        position: relative;
+        right: 0%;
+    }
+    .sec-3 img{
+        width: 100%;
+    }
+    .sec-4{
+        align-items: center;
+        flex-direction: column;
+        margin: 0%;
+    }
+    .sec-4 div {
+        width: 100%;
+    }
+    .hr50m{
+        height: 50px;
+    }
+    .sec-5{
+        flex-direction: column;
+        align-items: center;
+    }
+    .sec-5 img {
+        margin: 5% 0%;
+    }
+    .sec-6{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .btns-bot{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    footer{
+        flex-direction: column;
+        align-items: center;
+        gap: 10%;
+    }
+    footer .logo{
+        width: 15%;
+        margin-top: 10%;
+    }
+    footer .links-1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 1fr);
+        justify-items: center;
+        column-gap: 0%;
+        row-gap: 0%;
+        margin: 10%;
+    }
+    footer .links-1 a{
+        margin: 10% 0%;
+    }
+    footer .links-2 {
+        align-items: center;
+        gap: 40px;
+    }
+}
